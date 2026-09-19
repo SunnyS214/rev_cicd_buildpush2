@@ -13,7 +13,7 @@ jobs:
     needs: tests1
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: docker login
         uses: docker/login-actions@v4
